@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>array</title>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <script>
+    var scores = [60, 90, 60, 58, 54, 54, 58, 50, 52,
+      54,48, 69, 34, 55, 51, 52, 44, 66];
+    var max = scores[0];
+    var sign = 0;
+    for (var i = 1; i < scores.length; i++)
+      if (scores[i] > max) {
+        max = scores[i];
+        sign = i;
+      }
+  </script>
+</body>
+
+</html>
